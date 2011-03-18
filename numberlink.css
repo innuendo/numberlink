@@ -1,0 +1,13 @@
+#plansza_tabela {
+	border-collapse: collapse;
+	border-width: 3px;
+	border-style: solid;
+	text-align: center;
+	font-size: 30px;
+}
+
+#glowna {
+	width:70%;
+	margin-left:15%;
+	margin-right:15%;
+}
