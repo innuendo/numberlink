@@ -1,13 +1,125 @@
-#plansza_tabela {
-	border-collapse: collapse;
-	border-width: 3px;
-	border-style: solid;
-	text-align: center;
-	font-size: 30px;
+body {
+    background-color: #E3E3E3;
+    color: #3F3F3F;
+    text-align: center;
 }
 
+#plansza_tabela {
+    border-collapse: collapse;
+    border-width: 3px;
+    border-style: solid;
+    font-family: "PortagoITC TT";
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-shadow: 0px 0px 15px #777;
+    -webkit-box-shadow: 0px 0px 15px #777;
+    box-shadow: 0px 0px 15px #777;
+}
+
+#gora {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "PortagoITC TT";
+}
+
+#header {
+    font-size: 72px;
+    line-height: 72px;
+}
+
+#author {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+
 #glowna {
-	width:70%;
-	margin-left:15%;
-	margin-right:15%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#dol {
+    height: 50px;
+    font-size: 10px;
+    font-family: "Book Antiqua";
+}
+#lewa {
+    width: 150px;
+    vertical-align: top;
+    background-color: #F5F3F3;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0px 0px 5px #666;
+    -webkit-box-shadow: 0px 0px 5px #666;
+    box-shadow: 0px 0px 5px #666;
+}
+
+hr {
+    width: 70%;
+    height: 1px;
+    border: 0;
+    background-color: #CDD0D3;
+}
+
+#stopka {
+    width: 35%;
+}
+
+h1 {
+    font-family: "PortagoITC TT";
+}
+
+#prawa {
+    width: 150px;
+    background-color: #F5F3F3;
+    font-family: "PortagoITC TT";
+    vertical-align: top;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: 0px 0px 5px #666;
+    -webkit-box-shadow: 0px 0px 5px #666;
+    box-shadow: 0px 0px 5px #666;
+}
+
+#stoper
+{
+    font-size: 36px;
+}
+
+#menu_box {
+    -moz-box-shadow: 0px 0px 5px #666;
+    -webkit-box-shadow: 0px 5px 5px #666;
+    box-shadow: 0px 0px 5px #666;
+    background-color: #F5F3F3;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    height: 200px;
+}
+
+.menu {
+    font-family: "PortagoITC TT";
+    font-size: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.menu:hover {
+    color: #9F1E19;
+    font-size: 22px;
+    background-color: #CDD0D3;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    -moz-box-shadow: inset 0px 0px 3px #888;
+    -webkit-box-shadow: inset 0px 0px 3px #888;
+    box-shadow: inset 0px 0px 3px #888;
 }

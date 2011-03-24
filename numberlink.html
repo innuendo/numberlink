@@ -8,16 +8,38 @@
         <link rel="stylesheet" type="text/css" href="numberlink.css" />
         <script type="text/javascript" src="jquery.js">
         </script>
+        <script type="text/javascript" src="plansze.js">
+        </script>
+        <script type="text/javascript" src="time.js">
+        </script>
         <script type="text/javascript" src="numberlink.js">
         </script>
+        <script type="text/javascript" src="gra.js">
+        </script>
     </head>
+    <p id='gora'>
+        <span id='header'>NUMBERLINK</span><br />
+        <span id='author'>by Krzysztof Wisniewski</span>
+    </p>
     <body>
         <table id = 'glowna'>
             <tr>
+                <td id='menu_box' colspan='3'>
+                    <div id="menu">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td id='lewa'></td>
                 <td id='plansza'></td>
-                <td id='debug'></td>
-                <td id='debug2'></td>
+                <td id='prawa'></td>
             </tr>
         </table>
     </body>
+    <footer>
+        <hr id='stopka'/>
+        <div id='dol'>
+            ©Copyright by Krzysztof Wiśniewski 2011. All rights reserved.
+        </div>
+    </footer>
 </html>
